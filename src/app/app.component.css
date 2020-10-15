@@ -1,0 +1,9 @@
+.container-fluid{
+    background: linear-gradient(300deg, rgba(0,0,0,0.2) , rgb(255,255,255));
+    background: -webkit-linear-gradient(300deg, rgba(0,0,0,0.2) , rgb(255,255,255));
+    background: -moz-linear-gradient(120deg, rgba(0,0,0,0.2) , rgb(255,255,255));
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}

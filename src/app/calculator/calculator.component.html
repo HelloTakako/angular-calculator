@@ -1,0 +1,37 @@
+<div class="calculator">
+    <div class="row align-middle">
+
+    <div class="textarea col-12">
+        <span id="input-history"></span>
+        <span id="result"></span>
+    </div>
+
+    <div class="row col-12">
+        <button (click)="operate($event)" type="button" class="btn btn-info col-3">+</button>
+        <button (click)="operate($event)" type="button" class="btn btn-info col-3">-</button>
+        <button (click)="operate($event)" type="button" class="btn btn-info col-3">*</button>
+        <button (click)="operate($event)" type="button" class="btn btn-info col-3">/</button>
+    </div>
+
+    <div class="row row-cols-3 col-9">
+        <button (click)="operate($event)" type="button" class="btn btn-light col">7</button>
+        <button (click)="operate($event)" type="button" class="btn btn-light col">8</button>
+        <button (click)="operate($event)" type="button" class="btn btn-light col">9</button>
+        
+        <button (click)="operate($event)" type="button" class="btn btn-light col">4</button>
+        <button (click)="operate($event)" type="button" class="btn btn-light col">5</button>
+        <button (click)="operate($event)" type="button" class="btn btn-light col">6</button>
+        
+        <button (click)="operate($event)" type="button" class="btn btn-light col">1</button>
+        <button (click)="operate($event)" type="button" class="btn btn-light col">2</button>
+        <button (click)="operate($event)" type="button" class="btn btn-light col">3</button>
+
+        <button (click)="operate($event)" type="button" class="btn btn-light col">0</button>
+        <button (click)="operate($event)" type="button" class="btn btn-light col">Undo</button>
+        <button (click)="operate($event)" type="button" class="btn btn-light col">Clear</button>
+    </div>
+    
+    <button (click)="operate($event)" type="button" class="btn btn-light col-3">=</button>
+
+    </div>
+</div>
